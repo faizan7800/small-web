@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# secrets
+.env
+.env.*
+
+# logs and test coverage
+*.log
+coverage/
+
+# computer files
+.DS_Store
