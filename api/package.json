@@ -64,6 +64,12 @@
       "json",
       "ts"
     ],
+    "moduleNameMapper": {
+  "^(.+)\\.js$": "$1"
+    },
+    "transformIgnorePatterns": [
+"node_modules/(?!(htmlparser2|dom-serializer|domhandler|domutils|domelementtype|entities)/)"
+],
     "rootDir": "src",
     "testRegex": ".*\\.spec\\.ts$",
     "transform": {
